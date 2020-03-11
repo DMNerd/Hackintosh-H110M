@@ -39,7 +39,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 debug=0x100 dart=0</string>
+		<string>keepsyms=1 debug=0x100 dart=0 agdpmod=pikera</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -58,12 +58,10 @@
 	<key>GUI</key>
 	<dict>
 		<key>Hide</key>
-       	<array>
-           	<string>Recovery</string>
-           	<string>Preboot</string>
-       	</array>
-       	<key>Scan</key>
-       	<true/>
+		<array>
+			<string>Recovery</string>
+			<string>Preboot</string>
+		</array>
 		<key>Scan</key>
 		<dict>
 			<key>Tool</key>
