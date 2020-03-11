@@ -62,6 +62,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>Theme</key>
+		<string>clover-next-black</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
