@@ -57,6 +57,13 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>Hide</key>
+       	<array>
+           	<string>Recovery</string>
+           	<string>Preboot</string>
+       	</array>
+       	<key>Scan</key>
+       	<true/>
 		<key>Scan</key>
 		<dict>
 			<key>Tool</key>
