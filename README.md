@@ -3,7 +3,7 @@
 This is my personal Hackintosh repo. 
 
 ## Main PC specs
-I dualboot MacOS Catalina with Window 10
+I dualboot MacOS Catalina with Windows 10
 
 MoBo: Gigabyte H110m sh2-ddr3
 CPU: i5 6500 skylake
