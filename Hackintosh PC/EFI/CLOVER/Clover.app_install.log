@@ -1,0 +1,35 @@
+
+Clover Installer r5105 (v1.1.2), 2020-03-13 10:32:17
+macOS Version 10.15.3 (Build 19D76)
+SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
+Backup made at:
+/Users/dmnerd/Desktop/CloverBackUp/CT240BX200SSD1 Media/r5093_2020-03-13_10-32-13/EFI.
+Target volume: /Volumes/EFI
+BSD Name:      disk1s1
+Filesystem:    FAT32
+Is internal:   true
+Is writable:   true
+
+Installing/Updating Clover:
++ ../BOOT/BOOTX64.efi
++ ../CLOVER/CLOVERX64.efi
+
+Installing/Updating drivers:
++ ../UEFI/DataHubDxe.efi
++ ../UEFI/FSInject.efi
++ ../UEFI/SMCHelper.efi
++ ../UEFI/ApfsDriverLoader.efi
++ ../UEFI/Ps2MouseDxe.efi
++ ../UEFI/UsbKbDxe.efi
++ ../UEFI/UsbMouseDxe.efi
++ ../UEFI/OsxAptioFix3Drv.efi
++ ../UEFI/NvmExpressDxe.efi
++ ../UEFI/PartitionDxe.efi
+
+Installing/Updating tools:
++ ../tools/Shell64.efi
++ ../tools/bdmesg.efi
++ ../tools/Shell64U.efi
++ ../tools/Shell32.efi
+
+Installing/Updating docs:

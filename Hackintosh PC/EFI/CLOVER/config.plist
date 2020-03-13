@@ -116,12 +116,16 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<false/>
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
 		<string>C02QFHACGG7L</string>
 		<key>SmUUID</key>
 		<string>125802EE-3B36-4A77-95FF-7B1CAA27282B</string>
+		<key>Trust</key>
+		<false/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
