@@ -64,6 +64,8 @@
 		</array>
 		<key>Scan</key>
 		<dict>
+			<key>Legacy</key>
+			<false/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -83,6 +85,8 @@
 				<false/>
 				<key>Find</key>
 				<data>Ym9hcmQtaWQ=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>AppleGraphicsDevicePolicy</string>
 				<key>Replace</key>
