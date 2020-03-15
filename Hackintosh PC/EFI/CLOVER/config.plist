@@ -101,7 +101,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
 		<key>MLB</key>
-		<string>C02140302D5DMT31M</string>
+		<string>C02730301CDGPF71M</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
@@ -118,7 +118,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02716501GUGPF7CB</string>
+		<string>C02730301CDGPF71M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -140,9 +140,9 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02TLMZVGG7L</string>
+		<string>C02V40SSGG7L</string>
 		<key>SmUUID</key>
-		<string>6BDCCECD-CC33-4119-BB26-2652BA7DF829</string>
+		<string>BA4B49A6-1184-40FB-A8C1-552DFC9F4A37</string>
 		<key>Trust</key>
 		<true/>
 	</dict>
