@@ -65,7 +65,7 @@
 		<key>Scan</key>
 		<dict>
 			<key>Legacy</key>
-			<false/>
+			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
@@ -118,7 +118,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02140302D5DMT31M</string>
+		<string>C02716501GUGPF7CB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -140,11 +140,11 @@
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
-		<string>C02QFHACGG7L</string>
+		<string>C02TLMZVGG7L</string>
 		<key>SmUUID</key>
-		<string>125802EE-3B36-4A77-95FF-7B1CAA27282B</string>
+		<string>6BDCCECD-CC33-4119-BB26-2652BA7DF829</string>
 		<key>Trust</key>
-		<false/>
+		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
