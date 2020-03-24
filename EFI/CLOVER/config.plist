@@ -116,7 +116,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>clover-next-black</string>
+		<string>clover-theme-oss</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
