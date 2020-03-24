@@ -20,6 +20,8 @@
 				<true/>
 				<key>FixTMR</key>
 				<true/>
+				<key>FixWAK</key>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
@@ -55,11 +57,34 @@
 				</dict>
 			</array>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>MATS</string>
+			</dict>
+		</array>
+		<key>FixHeaders</key>
+		<true/>
+		<key>HaltEnabler</key>
+		<true/>
+		<key>SSDT</key>
+		<dict>
+			<key>Generate</key>
+			<dict>
+				<key>PluginType</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>keepsyms=1 debug=0x100 dart=0</string>
+		<string>keepsyms=1 debug=0x100 dart=0 -lilubetaall</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Timeout</key>
@@ -91,11 +116,15 @@
 		</array>
 		<key>Scan</key>
 		<dict>
+			<key>Entries</key>
+			<false/>
 			<key>Legacy</key>
 			<true/>
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>ScreenResolution</key>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>clover-next-black</string>
 	</dict>
@@ -180,6 +209,20 @@
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
 				<data>SW50ZXJuYWw=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Black Screen Patch Vega 56/64, RX580 etc. (c)Pike R. Alpha</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>Ym9hcmQtaWQ=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>Ym9hcmQtaXg=</data>
 			</dict>
 		</array>
 	</dict>
