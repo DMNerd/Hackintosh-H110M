@@ -1,11 +1,11 @@
 
-Clover Installer r5105 (v1.1.2), 2020-03-13 10:32:17
-macOS Version 10.15.3 (Build 19D76)
+Clover Installer r5107 (v1.1.2), 2020-03-27 04:19:39
+macOS Version 10.15.4 (Build 19E266)
 SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
 Backup made at:
-/Users/dmnerd/Desktop/CloverBackUp/CT240BX200SSD1 Media/r5093_2020-03-13_10-32-13/EFI.
+/Users/dmnerd/Desktop/CloverBackUp/CT240BX200SSD1 Media/r5107_2020-03-27_04-19-35/EFI.
 Target volume: /Volumes/EFI
-BSD Name:      disk1s1
+BSD Name:      disk2s1
 Filesystem:    FAT32
 Is internal:   true
 Is writable:   true
@@ -15,6 +15,7 @@ Installing/Updating Clover:
 + ../CLOVER/CLOVERX64.efi
 
 Installing/Updating drivers:
++ ../UEFI/AudioDxe.efi
 + ../UEFI/DataHubDxe.efi
 + ../UEFI/FSInject.efi
 + ../UEFI/SMCHelper.efi
@@ -23,7 +24,6 @@ Installing/Updating drivers:
 + ../UEFI/UsbKbDxe.efi
 + ../UEFI/UsbMouseDxe.efi
 + ../UEFI/OsxAptioFix3Drv.efi
-+ ../UEFI/NvmExpressDxe.efi
 + ../UEFI/PartitionDxe.efi
 
 Installing/Updating tools:
