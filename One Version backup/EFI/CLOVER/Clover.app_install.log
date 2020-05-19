@@ -1,11 +1,11 @@
 
-Clover Installer r5114 (dc419a5f0) (v1.1.2), 2020-04-22 12:29:00
+Clover Installer r5116 (8f5a4616b) (v1.1.4), 2020-05-08 02:10:29
 macOS Version 10.15.4 (Build 19E287)
 SELF = /Applications/Clover.app/Contents/MacOS/CloverDaemonNew
 Backup made at:
-/Users/dmnerd/Desktop/CloverBackUp/CT240BX200SSD1 Media/r5112_2020-04-22_12-28-56/EFI.
+/Users/dmnerd/Desktop/CloverBackUp/CT240BX200SSD1 Media/r5114_2020-05-08_02-10-27/EFI.
 Target volume: /Volumes/EFI
-BSD Name:      disk0s1
+BSD Name:      disk1s1
 Filesystem:    FAT32
 Is internal:   true
 Is writable:   true
