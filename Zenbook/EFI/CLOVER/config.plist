@@ -599,6 +599,8 @@
 		<string>0x0</string>
 		<key>CsrActiveConfig</key>
 		<string>0x0</string>
+		<key>MLB</key>
+		<string>C02653500GUHWVPFB</string>
 		<key>ROM</key>
 		<data>OQ80eJdY</data>
 	</dict>
@@ -615,7 +617,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027385014NHWVPCB</string>
+		<string>C02653500GUHWVPFB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -645,9 +647,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro14,1</string>
 		<key>SerialNumber</key>
-		<string>C02VF0MJHV29</string>
+		<string>C02T1BZUHV29</string>
 		<key>SmUUID</key>
-		<string>2AAB997A-2F8F-45E4-A0BE-2B5D0E789758</string>
+		<string>98D1E8B9-A31A-4D16-9140-3830C6E7E8C1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
