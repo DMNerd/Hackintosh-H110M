@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>AutoMerge</key>
+		<true/>
+		<key>Comment-DisabledAML</key>
+		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
+		<key>DSDT</key>
+		<dict>
+			<key>Fixes</key>
+			<dict>
+				<key>AddHDMI</key>
+				<false/>
+				<key>AddPNLF</key>
+				<true/>
+				<key>FixHPET</key>
+				<false/>
+				<key>FixIPIC</key>
+				<false/>
+				<key>FixMutex</key>
+				<false/>
+				<key>FixRTC</key>
+				<false/>
+				<key>FixTMR</key>
+				<false/>
+				<key>FixUSB</key>
+				<false/>
+			</dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X09TSQ==</data>
+					<key>Replace</key>
+					<data>WE9TSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0RTTQ==</data>
+					<key>Replace</key>
+					<data>WERTTQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>R0ZYMA==</data>
+					<key>Replace</key>
+					<data>SUdQVQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>SEVDSQ==</data>
+					<key>Replace</key>
+					<data>SU1FSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change SAT0 to SATA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>U0FUMA==</data>
+					<key>Replace</key>
+					<data>U0FUQQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change LPC to LPCB</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>TFBDXw==</data>
+					<key>Replace</key>
+					<data>TFBDQg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _REG to XREG in EC0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1JFRwKgCw==</data>
+					<key>Replace</key>
+					<data>WFJFRwKgCw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BUUwE=</data>
+					<key>Replace</key>
+					<data>WlBUUwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_WAK,1,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1dBSwE=</data>
+					<key>Replace</key>
+					<data>WldBSwE=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(GPRW,2,N) to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R1BSVwI=</data>
+					<key>Replace</key>
+					<data>WFBSVwI=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery: Rename Method(_BIX,0) to Method(XBIX,0)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X0JJWAA=</data>
+					<key>Replace</key>
+					<data>WEJJWAA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery: Rename Method(BIFA,0) to Method(XBIF,0)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>QklGQQA=</data>
+					<key>Replace</key>
+					<data>WEJJRgA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery: Rename Method(SMBR,3,Serialized) to Method(XSMR,3,Serialized)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>U01CUgs=</data>
+					<key>Replace</key>
+					<data>WFNNUgs=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery: Rename Method(SMBW,5,Serialized) to Method(XSMW,5,Serialized)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>U01CVw0=</data>
+					<key>Replace</key>
+					<data>WFNNVw0=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Battery: Rename Method(FBST,4) to Method(XBST,4)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RkJTVAQ=</data>
+					<key>Replace</key>
+					<data>WEJTVAQ=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>ALS: change Method(RALS,0,S) XALS</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>UkFMUwA=</data>
+					<key>Replace</key>
+					<data>WEFMUwA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q0A,0,NS) to XQ0A</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwQQA=</data>
+					<key>Replace</key>
+					<data>WFEwQQA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q0B,0,NS) to XQ0B</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwQgA=</data>
+					<key>Replace</key>
+					<data>WFEwQgA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q0E,0,NS) to XQ0E</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwRQA=</data>
+					<key>Replace</key>
+					<data>WFEwRQA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q0F,0,NS) to XQ0F</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1EwRgA=</data>
+					<key>Replace</key>
+					<data>WFEwRgA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_QCD,0,NS) to XQCD</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1FDRAA=</data>
+					<key>Replace</key>
+					<data>WFFDRAA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q11,0,NS) to XQ11</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1ExMQg=</data>
+					<key>Replace</key>
+					<data>WFExMQg=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_Q76,0,NS) to XQ76</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1E3NgA=</data>
+					<key>Replace</key>
+					<data>WFE3NgA=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _STA methods in MATH and LDR2 device to XSTA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1NUQQCgDZNQ</data>
+					<key>Replace</key>
+					<data>WFNUQQCgDZNQ</data>
+				</dict>
+			</array>
+		</dict>
+		<key>DisabledAML</key>
+		<array>
+			<string>SSDT-XCPM.aml</string>
+			<string>SSDT-PluginType1.aml</string>
+		</array>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>#MCFG</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>xh_rvp10</string>
+			</dict>
+		</array>
+		<key>FixHeaders</key>
+		<true/>
+		<key>SSDT</key>
+		<dict>
+			<key>DropOem</key>
+			<false/>
+			<key>Generate</key>
+			<dict>
+				<key>PluginType</key>
+				<true/>
+			</dict>
+			<key>NoOemTableId</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Boot</key>
+	<dict>
+		<key>Arguments</key>
+		<string>-lilubetaall keepsyms=1 dart=0</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
+		<key>NeverHibernate</key>
+		<false/>
+		<key>Secure</key>
+		<false/>
+		<key>Timeout</key>
+		<integer>5</integer>
+		<key>XMPDetection</key>
+		<string>Yes</string>
+	</dict>
+	<key>Comment</key>
+	<string>This config is created by @hieplpvip for UX430 (KabyLake)</string>
+	<key>Devices</key>
+	<dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>built-in</key>
+				<data>AA==</data>
+				<key>device_type</key>
+				<string>I2C</string>
+				<key>model</key>
+				<string>Apple Intel Lpss I2C #0</string>
+				<key>name</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #0</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>built-in</key>
+				<data>AA==</data>
+				<key>device_type</key>
+				<string>I2C</string>
+				<key>model</key>
+				<string>Apple Intel Lpss I2C #1</string>
+				<key>name</key>
+				<string>Sunrise Point-LP Serial IO I2C Controller #1</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>model</key>
+				<string>Sunrise Point-LP CSME HECI #1</string>
+				<key>name</key>
+				<string>Apple Intel IMEI DRIVER</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>PMC</string>
+				<key>model</key>
+				<string>Apple AHCI SSD Controller</string>
+				<key>name</key>
+				<string>Sunrise Point-LP SATA Controller [AHCI mode]</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1c,0x6)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>NGFF M.2 Key A/E</string>
+				<key>PinConfigurations</key>
+				<data>AA==</data>
+				<key>brcmfx-country</key>
+				<string>DE</string>
+				<key>built-in</key>
+				<data>AA==</data>
+				<key>compatible</key>
+				<string>pci14e4,43a0</string>
+				<key>device_type</key>
+				<string>AirPort</string>
+				<key>model</key>
+				<string>Broadcom BCM94352Z - 802.11a/b/g/n/ac Wireless Network Adapter</string>
+				<key>name</key>
+				<string>AirPort Extreme</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>PMC</string>
+				<key>model</key>
+				<string>Apple Intel PCHPMC (PPMC)</string>
+				<key>name</key>
+				<string>Sunrise Point-LP PMC</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>alc-layout-id</key>
+				<data>AwAAAA==</data>
+				<key>device_type</key>
+				<string>High Definition Audio</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<data>AwAAAA==</data>
+				<key>model</key>
+				<string>Sunrise Point-LP HD Audio</string>
+				<key>name</key>
+				<string>Realtek ALC255</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>device_type</key>
+				<string>SMBus</string>
+				<key>model</key>
+				<string>Apple Intel SMBUS</string>
+				<key>name</key>
+				<string>Sunrise Point-LP SMBus</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AAAbWQ==</data>
+				<key>device-id</key>
+				<data>FlkAAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAwA==</data>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Built In</string>
+				<key>compatible</key>
+				<string>pci8086,9d21</string>
+				<key>device_type</key>
+				<string>Thermal-Controller</string>
+				<key>model</key>
+				<string>Intel Thermal</string>
+				<key>name</key>
+				<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem</string>
+			</dict>
+		</dict>
+		<key>SetIntelBacklight</key>
+		<false/>
+		<key>SetIntelMaxBacklight</key>
+		<false/>
+		<key>USB</key>
+		<dict>
+			<key>AddClockID</key>
+			<true/>
+			<key>FixOwnership</key>
+			<true/>
+			<key>HighCurrent</key>
+			<false/>
+			<key>NameEH00</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>DisableDrivers</key>
+	<array>
+		<string>VBoxHfs</string>
+	</array>
+	<key>GUI</key>
+	<dict>
+		<key>#ScreenResolution</key>
+		<string>1920x1080</string>
+		<key>Mouse</key>
+		<dict>
+			<key>Enabled</key>
+			<false/>
+		</dict>
+		<key>Scan</key>
+		<dict>
+			<key>Legacy</key>
+			<true/>
+			<key>Tool</key>
+			<true/>
+		</dict>
+		<key>Theme</key>
+		<string>CloverCamp</string>
+	</dict>
+	<key>Graphics</key>
+	<dict>
+		<key>Inject</key>
+		<dict>
+			<key>ATI</key>
+			<false/>
+			<key>Intel</key>
+			<false/>
+			<key>NVidia</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>KernelAndKextPatches</key>
+	<dict>
+		<key>AppleRTC</key>
+		<true/>
+		<key>DellSMBIOSPatch</key>
+		<false/>
+		<key>ForceKextsToLoad</key>
+		<array>
+			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
+			<string>\System\Library\Extensions\IOGraphicsFamily.kext</string>
+		</array>
+		<key>KernelLapic</key>
+		<true/>
+		<key>KernelToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>MSR 0xE2 _xcpm_idle instant reboot(c) Pike R. Alpha</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>ILniAAAADzA=</data>
+				<key>Replace</key>
+				<data>ILniAAAAkJA=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on 10.13 release kernel (credit vit9696)</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>igKEwHRE</data>
+				<key>MatchOS</key>
+				<string>10.13.x</string>
+				<key>Replace</key>
+				<data>igKEwOtE</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
+				<key>Disabled</key>
+				<true/>
+				<key>Find</key>
+				<data>igKEwHRC</data>
+				<key>MatchOS</key>
+				<string>10.14.x</string>
+				<key>Replace</key>
+				<data>igKEwOtC</data>
+			</dict>
+		</array>
+		<key>KextsToPatch</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>SU9LaXQ=</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>SU9LaXM=</data>
+			</dict>
+		</array>
+	</dict>
+	<key>RtVariables</key>
+	<dict>
+		<key>BooterConfig</key>
+		<string>0x0</string>
+		<key>CsrActiveConfig</key>
+		<string>0x0</string>
+		<key>ROM</key>
+		<data>OQ80eJdY</data>
+	</dict>
+	<key>SMBIOS</key>
+	<dict>
+		<key>BiosReleaseDate</key>
+		<string>09/17/2018</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP141.88Z.F000.B00.1809171524</string>
+		<key>Board-ID</key>
+		<string>Mac-B4831CEBD52A0C4C</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C027385014NHWVPCB</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>184.0.0.0.0</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
+		<key>PlatformFeature</key>
+		<string>0x1A</string>
+		<key>ProductName</key>
+		<string>MacBookPro14,1</string>
+		<key>SerialNumber</key>
+		<string>C02VF0MJHV29</string>
+		<key>SmUUID</key>
+		<string>2AAB997A-2F8F-45E4-A0BE-2B5D0E789758</string>
+		<key>Version</key>
+		<string>1.0</string>
+	</dict>
+	<key>SystemParameters</key>
+	<dict>
+		<key>CustomUUID</key>
+		<string>96883298-7428-42DF-AD26-3FB74A8C841B</string>
+		<key>InjectKexts</key>
+		<string>Yes</string>
+		<key>InjectSystemID</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
