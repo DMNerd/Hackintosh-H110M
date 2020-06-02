@@ -96,23 +96,17 @@
 			<true/>
 		</dict>
 		<key>Properties</key>
-        <dict>
-            <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
-            <dict>
-                <key>AAPL,ig-platform-id</key>
-                <data>
-                AQASGQ==
-                </data>
-                <key>framebuffer-patch-enable</key>
-                <data>
-                AQAAAA==
-                </data>
-                <key>framebuffer-stolenmem</key>
-                <data>
-                AAAwAQ==
-                </data>
-            </dict>
-        </dict>
+		<dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,ig-platform-id</key>
+				<data>AQASGQ==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -136,7 +130,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>CloverCamp</string>
+		<string>Blackcamp</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
