@@ -36,8 +36,11 @@ WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 My setup does not require many kexts.
 
 Sound: [AppleALC](https://github.com/acidanthera/applealc/releases)
+
 Graphics: [Lilu](https://github.com/acidanthera/lilu/releases) and [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases)
+
 LAN: [RealtekRTL8111](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) 
+
 USB: [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
 
  
