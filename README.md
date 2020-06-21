@@ -9,6 +9,8 @@ I am planning on migrating to [OpenCore](https://github.com/acidanthera/OpenCore
 
 ## Main PC specs
 
+![Neofetch](https://i.imgur.com/NRFRISI.png)
+
 I dualboot MacOS Catalina with Windows 10 (I do usually not use Windows nowadays but for the rare ocasion of playing a game it is usefull)
 
 MoBo: Gigabyte H110m sh2-ddr3
