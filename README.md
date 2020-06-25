@@ -13,9 +13,9 @@ I am planning on migrating to [OpenCore](https://github.com/acidanthera/OpenCore
 
 I dualboot MacOS Catalina with Windows 10 (I do usually not use Windows nowadays but for the rare ocasion of playing a game it is usefull)
 
-MoBo: Gigabyte H110m sh2-ddr3
+MoBo: [Gigabyte H110m sh2-ddr3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov)
 
-CPU: i5 6500 skylake
+CPU: [i5 6500 skylake](https://ark.intel.com/content/www/us/en/ark/products/88184/intel-core-i5-6500-processor-6m-cache-up-to-3-60-ghz.html)
 
 GPU: Sapphire Radeon RX 460 [bios modded](https://www.overclock.net/forum/67-amd/1633317-wip-rx460-rx560-conversion-pack-asus-gigabyte-msi-powercolor-sapphire-xfx.html "bios modded") to RX 560 4GB
 
@@ -24,6 +24,8 @@ RAM: Kingston 8GB
 Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
+
+Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1) (Mine should perform slightly better that the base spec since everything is the same but OS is on SSD and better GPU)
 
 ### Disk setup: 
 
