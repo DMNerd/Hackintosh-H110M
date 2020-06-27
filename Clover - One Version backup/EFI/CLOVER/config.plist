@@ -66,6 +66,8 @@
 				<string>MATS</string>
 			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>Generate</key>
