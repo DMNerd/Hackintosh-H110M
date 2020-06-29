@@ -245,6 +245,8 @@
 		<string>BA4B49A6-1184-40FB-A8C1-552DFC9F4A37</string>
 		<key>Trust</key>
 		<true/>
+		<key>NoRomInfo</key>
+		<true/>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
