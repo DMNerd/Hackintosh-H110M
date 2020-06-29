@@ -2,12 +2,13 @@
 
 This is my personal Hackintosh repo. 
 The current config is using [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases). I tend to stay on the newest version. Everything is working perfectly and I have no problems.
+
 I am planning on migrating to [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) once it matures a bit. Currently I do not see the benefit of doing so **On my current setup**. 
 
 **You can use this as a guide, but please, always make sure to change the UUID and Serial to something unique to your setup.**
 **You should never use config.plist you find on github as is!**
 
-## Main PC specs
+## Main PC specs 
 
 ![Neofetch](https://i.imgur.com/NRFRISI.png)
 
@@ -27,13 +28,16 @@ Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/3303439402
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1) (Mine should perform slightly better that the base spec since everything is the same but OS is on SSD and better GPU)
 
-### Disk setup: 
+### Disk setup 
 
 MAC - 250gb Crucial Balistix SSD + Seagate 1TB HDD 
 
 WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
-## KEXTS
+## Clover 
+Version: 5119
+
+## Kernel Extensions 
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to corpnewt, you are the boss!
 
