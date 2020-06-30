@@ -53,6 +53,26 @@
 					<key>Replace</key>
 					<data>U0FUQQ==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC1 to EH01</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUhDMQ==</data>
+					<key>Replace</key>
+					<data>RUgwMQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUhDMg==</data>
+					<key>Replace</key>
+					<data>RUgwMg==</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -161,6 +181,8 @@
 				<false/>
 				<key>Find</key>
 				<data>g/sPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOUSBHostFamily</string>
 				<key>Replace</key>
@@ -173,6 +195,8 @@
 				<false/>
 				<key>Find</key>
 				<data>g/kPDw==</data>
+				<key>InfoPlistPatch</key>
+				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
@@ -237,6 +261,8 @@
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<false/>
+		<key>NoRomInfo</key>
+		<true/>
 		<key>ProductName</key>
 		<string>iMac17,1</string>
 		<key>SerialNumber</key>
@@ -244,8 +270,6 @@
 		<key>SmUUID</key>
 		<string>BA4B49A6-1184-40FB-A8C1-552DFC9F4A37</string>
 		<key>Trust</key>
-		<true/>
-		<key>NoRomInfo</key>
 		<true/>
 	</dict>
 	<key>SystemParameters</key>
