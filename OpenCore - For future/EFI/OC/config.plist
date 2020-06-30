@@ -575,7 +575,7 @@
 				<key>Path</key>
 				<string>modGRUBShell.efi</string>
 				<key>Auxiliary</key>
-				<false/>
+				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -589,7 +589,7 @@
 				<key>Path</key>
 				<string>VerifyMsrE2.efi</string>
 				<key>Auxiliary</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
