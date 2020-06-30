@@ -47,6 +47,6 @@ Graphics: [Lilu](https://github.com/acidanthera/lilu/releases) and [WhateverGree
 
 LAN: [RealtekRTL8111](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) 
 
-USB: [USBInjectAll](https://bitbucket.org/RehabMan/os-x-usb-inject-all/downloads/)
+USB: I used [USBMap](https://github.com/corpnewt/USBMap) to generate custom injector kext. This tool is again by the amazing corpnewt
 
  
