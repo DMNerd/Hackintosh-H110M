@@ -108,6 +108,26 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XHC1 to SHCI</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>WEhDMQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Replace</key>
+				<data>U0hDSQ==</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>Tablelength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
