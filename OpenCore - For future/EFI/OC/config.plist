@@ -583,6 +583,20 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>OpenShell.efi</string>
+				<key>Name</key>
+				<string>OpenShell.efi</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Arguments</key>
+				<string></string>
+				<key>Path</key>
+				<string>OpenShell.efi</string>
+				<key>Auxiliary</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>VerifyMsrE2.efi</string>
 				<key>Name</key>
 				<string>VerifyMsrE2.efi</string>
