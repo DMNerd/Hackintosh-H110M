@@ -1,6 +1,6 @@
-#USB MAP for H110M-DS2-DDR3 
+USB MAP for H110M-DS2-DDR3 
 
-##Case
+Case
 
  2 2 3 3 
 
@@ -14,7 +14,7 @@ From left to right:
 
 2 - HS07
 
-##Motherboard
+Motherboard
 
  3 3
 
@@ -30,6 +30,6 @@ From left to right - from top to bottom
 
 2 - HS06
 
-##Internal
+Internal
 
 BRCM20702 Hub - HS10 - SS06 
