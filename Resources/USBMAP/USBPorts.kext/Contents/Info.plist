@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>v1.0</string>
+	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.corpnewt.USBMap</string>
+	<string>com.Headsoft.USBPorts</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBMap</string>
+	<string>USBPorts</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -30,15 +30,25 @@
 			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
 			<string>XHC</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xa12f8086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleUSBXHCISPT</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBMuxEnabled</key>
-				<true/>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
-				DgAAAA==
+				FAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -46,6 +56,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>HS01</string>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -55,6 +67,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>HS02</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -64,6 +78,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>HS03</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
@@ -73,6 +89,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>HS04</string>
 						<key>port</key>
 						<data>
 						BAAAAA==
@@ -82,6 +100,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
+						<key>name</key>
+						<string>HS05</string>
 						<key>port</key>
 						<data>
 						BQAAAA==
@@ -91,6 +111,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
+						<key>name</key>
+						<string>HS06</string>
 						<key>port</key>
 						<data>
 						BgAAAA==
@@ -100,6 +122,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
+						<key>name</key>
+						<string>HS07</string>
 						<key>port</key>
 						<data>
 						BwAAAA==
@@ -109,6 +133,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>0</integer>
+						<key>name</key>
+						<string>HS08</string>
 						<key>port</key>
 						<data>
 						CAAAAA==
@@ -118,6 +144,8 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
+						<key>name</key>
+						<string>HS10</string>
 						<key>port</key>
 						<data>
 						CgAAAA==
@@ -127,36 +155,44 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS01</string>
 						<key>port</key>
 						<data>
-						CwAAAA==
+						EQAAAA==
 						</data>
 					</dict>
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS02</string>
 						<key>port</key>
 						<data>
-						DAAAAA==
+						EgAAAA==
 						</data>
 					</dict>
 					<key>SS03</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS03</string>
 						<key>port</key>
 						<data>
-						DQAAAA==
+						EwAAAA==
 						</data>
 					</dict>
 					<key>SS04</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
 						<key>port</key>
 						<data>
-						DgAAAA==
+						FAAAAA==
 						</data>
 					</dict>
 				</dict>
