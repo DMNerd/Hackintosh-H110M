@@ -1,9 +1,8 @@
 # Hackintosh_EFI
 
 This is my personal Hackintosh repo. 
-The current config is using [Clover](https://github.com/CloverHackyColor/CloverBootloader/releases). I tend to stay on the newest version. Everything is working perfectly and I have no problems.
 
-I am planning on migrating to [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) once it matures a bit. Currently I do not see the benefit of doing so **On my current setup**. 
+I am running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases). After testing I have figured out that it is now stable enough to be used as my main bootloader 
 
 **You can use this as a guide, but please, always make sure to change the UUID and Serial to something unique to your setup.**
 **You should never use config.plist you find on github as is!**
@@ -27,6 +26,16 @@ Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/3303439402
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1) (Mine should perform slightly better that the base spec since everything is the same but OS is on SSD and better GPU)
+
+### What is working
+
+Native Power Management ✅
+
+Wifi/Bluetooth ✅
+
+Hardware Acceleration (iGpu in headless mode) ✅
+
+Apple Services ✅
 
 ### Disk setup 
 
