@@ -21,7 +21,7 @@ GPU: Sapphire Radeon RX 460 [bios modded](https://www.overclock.net/forum/67-amd
 
 RAM: Kingston 8GB
 
-Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card
+Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
