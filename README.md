@@ -43,8 +43,8 @@ MAC - 250gb Crucial Balistix SSD + Seagate 1TB HDD
 
 WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
-## Clover 
-Version: 5119
+## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
+Version: 0.5.9
 
 ## Kernel Extensions 
 
