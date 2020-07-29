@@ -21,7 +21,7 @@ Apple Services ✅
 
 I dualboot MacOS Catalina with Windows 10 (I do usually not use Windows nowadays but for the rare ocasion of playing a game it is usefull)
 
-MoBo: [Gigabyte H110m sh2-ddr3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov)
+MoBo: [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov)
 
 CPU: [i5 6500 skylake](https://ark.intel.com/content/www/us/en/ark/products/88184/intel-core-i5-6500-processor-6m-cache-up-to-3-60-ghz.html)
 
