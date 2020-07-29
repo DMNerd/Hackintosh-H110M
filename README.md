@@ -2,10 +2,8 @@
 
 This is my personal Hackintosh repo. 
 
-I am running [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases). After testing I have figured out that it is now stable enough to be used as my main bootloader 
-
-**You can use this as a guide, but please, always make sure to change the UUID and Serial to something unique to your setup.**
-**You should never use config.plist you find on github as is!**
+## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
+Version: 0.5.9
 
 ## Main PC specs 
 
@@ -21,11 +19,18 @@ GPU: Sapphire Radeon RX 460 [bios modded](https://www.overclock.net/forum/67-amd
 
 RAM: Kingston 8GB
 
-Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset
+Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. Works like a charm, bluetooth range is slightly better if you get better antennas.
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
-Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1) (Mine should perform slightly better that the base spec since everything is the same but OS is on SSD and better GPU)
+## SMBIOS
+
+Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). 
+Do not forget to run your generated serial number against [EveryMac.com's Ultimate Mac Lookup](https://everymac.com/ultimate-mac-lookup/) and [Apple's service coverage check](https://checkcoverage.apple.com/cz/cs/) for Apple services to work. If the result looks like the images bellow, you should be good!
+
+![EveryMac](https://www.tonymacx86.com/media/07-everymac-right.187075/full?d=1470318026)
+
+![Apple](https://www.tonymacx86.com/media/10-apple-right.187078/full?d=1470318026)
 
 ### What is working
 
@@ -42,9 +47,6 @@ Apple Services ✅
 MAC - 250gb Crucial Balistix SSD + Seagate 1TB HDD 
 
 WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
-
-## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
-Version: 0.5.9
 
 ## Kernel Extensions 
 
