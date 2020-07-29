@@ -56,6 +56,7 @@ USB: I used [USBMap](https://github.com/corpnewt/USBMap) to generate custom inje
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). 
 Do not forget to run your generated serial number against [EveryMac.com's Ultimate Mac Lookup](https://everymac.com/ultimate-mac-lookup/) and [Apple's service coverage check](https://checkcoverage.apple.com/cz/cs/) for Apple services to work. If the result looks like the images bellow, you should be good!
 
-![EveryMac](https://www.tonymacx86.com/media/07-everymac-right.187075/full?d=1470318026)
+![EveryMac](https://i.imgur.com/1oUg6va.png)
+
 
 ![Apple](https://www.tonymacx86.com/media/10-apple-right.187078/full?d=1470318026)
