@@ -15,11 +15,11 @@ Hardware Acceleration (iGpu in headless mode) ✅
 
 Apple Services ✅
 
-## Main PC specs 
+## ⚙️ Main PC specs 
 
 ![Neofetch](https://i.imgur.com/NRFRISI.png)
 
-I dualboot MacOS Catalina with Windows 10 (I do usually not use Windows nowadays but for the rare ocasion of playing a game it is usefull)
+I dualboot MacOS Catalina with Windows 10 (I do usually not use Windows nowadays but for the rare occasion of playing a game it is usefull)
 
 MoBo: [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov)
 
@@ -33,13 +33,13 @@ Wifi/BT Card: [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/3303439402
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
-### Disk setup 
+### 💽 Disk setup 
 
 MAC - 250gb Crucial Balistix SSD + Seagate 1TB HDD 
 
 WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
-## Kernel Extensions 
+## 🛠️ Kernel Extensions 
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to corpnewt, you are the boss!
 
