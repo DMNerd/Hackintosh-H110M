@@ -43,6 +43,8 @@ WIN - 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to corpnewt, you are the boss!
 
+SMC: [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+
 Sound: [AppleALC](https://github.com/acidanthera/applealc/releases)
 
 Graphics: [Lilu](https://github.com/acidanthera/lilu/releases) and [WhateverGreen](https://github.com/acidanthera/whatevergreen/releases)
