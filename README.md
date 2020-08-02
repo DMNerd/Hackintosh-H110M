@@ -3,7 +3,7 @@
 This is my personal Hackintosh repo. 
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
-Version: 0.5.9
+Version: Custom Build of 0.6.0
 
 ### What works
 
