@@ -1,3 +1,4 @@
 
 .DS_Store
 OpenCore/EFI/OC/config.plsit
+OpenCore /EFI/OC/config.plist
