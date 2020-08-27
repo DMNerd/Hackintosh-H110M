@@ -7,6 +7,7 @@ This is my personal Hackintosh repo.
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
 Version: 0.6.0
+
 OpenCanopy bootscreen is enabled 
 
 ### ✅ What works
