@@ -23,7 +23,7 @@ OpenCanopy bootscreen is enabled
 * **CPU:** [i5 6500 skylake](https://ark.intel.com/content/www/us/en/ark/products/88184/intel-core-i5-6500-processor-6m-cache-up-to-3-60-ghz.html)
 * **GPU:** Sapphire Radeon RX 460 4GB [bios modded](https://www.overclock.net/forum/67-amd/1633317-wip-rx460-rx560-conversion-pack-asus-gigabyte-msi-powercolor-sapphire-xfx.html "bios modded") to RX 560 4GB. Make sure your card is on the confirmed working if you feel like not risking it (this one is)
 * **RAM:** Kingston 8GB
-* **Wifi/BT Card:** [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. Works like a charm, bluetooth range is slightly better if you get better antennas.
+* **Wifi/BT Card:** [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset. Works like a charm, bluetooth range is slightly better if you get better antennas
 * **Storage for MAC:** 250gb Crucial Balistix SSD + Seagate 1TB HDD
 * **Storage for Mindows:** 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
