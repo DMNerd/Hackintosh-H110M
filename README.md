@@ -1,4 +1,4 @@
-# 🍏 Hackintosh_EFI 
+# 🍏 Hackintosh
 
 This is my personal Hackintosh repo. 
 
