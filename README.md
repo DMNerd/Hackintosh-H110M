@@ -5,9 +5,11 @@ This is my personal Hackintosh repo.
 ![SysInfo](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfo.png)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
-Version: 0.6.0
 
-### What works
+Version: 0.6.0
+OpenCanopy bootscreen is enabled 
+
+### ✅ What works
 
 * Native Power Management ✅
 * Wifi/Bluetooth ✅
