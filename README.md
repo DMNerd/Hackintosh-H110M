@@ -17,7 +17,7 @@ OpenCanopy bootscreen is enabled
 * Hardware Acceleration (iGpu in headless mode) ✅
 * Apple Services ✅
 
-## ⚙️ Specifications 
+## ⚙️ Hardware 
 
 **MoBo:** [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov)
 
@@ -33,6 +33,8 @@ OpenCanopy bootscreen is enabled
 
 **Storage for Mindows:** 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD
 
+**Case:** [Fortron CMT240](https://www.fsp-europe.com/CS/cmt240/)
+
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
 ## 🛠️ Kernel Extensions 
@@ -47,7 +49,13 @@ My setup does not require many kexts. I built all from source using [Lilu-and-Fr
 
 **LAN:** [RealtekRTL8111](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) 
 
+## USB
+
+Strictly speaking, these comonents **do not** need USB mapping. You do not get over the arbitrary limit imposed by MacOS. But there are some advantages, like marking the port bluetooth hub is connected to as internal and making sure your usb 3 runs on the maximum speed. 
+
 **USB:** I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom injector kext. This just seemed to work much better for me. 
+
+1. Identifying ports - I have done tho work for you on this board
 
 ## SMBIOS
 
