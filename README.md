@@ -57,6 +57,14 @@ Strictly speaking, these comonents **do not** need USB mapping. You do not get 
 
 1. Identifying ports - I have done tho work for you on this board
 
+![USBMap](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/USBMAP/USBMap.png)
+
+2. Setting up Hackintool accordingly
+
+![HackintoolPNG](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/HackintoolUSB.png)
+
+3. Export and use the USBPorts.kext
+
 ## SMBIOS
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). 
