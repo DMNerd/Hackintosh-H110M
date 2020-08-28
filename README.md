@@ -53,7 +53,7 @@ My setup does not require many kexts. I built all from source using [Lilu-and-Fr
 
 Strictly speaking, these comonents **do not** need USB mapping. You do not get over the arbitrary limit imposed by MacOS. But there are some advantages, like marking the port bluetooth hub is connected to as internal and making sure your usb 3 runs on the maximum speed. 
 
-I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom injector kext. This just seemed to work much better for me. 
+**USB:** I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom injector kext. This just seemed to work much better for me. 
 
 1. Identifying ports - I have done tho work for you on this board
 
