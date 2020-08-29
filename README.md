@@ -39,7 +39,7 @@ OpenCanopy bootscreen is enabled
 
 ## 🛠️ Kernel Extensions 
 
-My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to corpnewt, you are the boss!
+My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to @corpnewt, you are the boss!
 
 **SMC:** [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 
