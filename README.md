@@ -53,7 +53,7 @@ My setup does not require many kexts. I built all from source using [Lilu-and-Fr
 
 Strictly speaking, these comonents **do not** need USB mapping. You do not get over the arbitrary limit imposed by MacOS. But there are some advantages, like marking the port bluetooth hub is connected to as internal and making sure your usb 3 runs on the maximum speed. 
 
-**USB:** I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom injector kext. This just seemed to work much better for me. 
+I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom injector kext. This just seemed to work much better for me. 
 
 1. Identifying ports - I have done tho work for you on this board
 
@@ -64,6 +64,10 @@ Strictly speaking, these comonents **do not** need USB mapping. You do not get 
 ![HackintoolPNG](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/HackintoolUSB.png)
 
 3. Export and use the USBPorts.kext
+
+## CFG-Lock
+
+This board does not have the abilitty to disable cfg-lock from bios - meaning it has to be done manually by finding the offset and applying it through the modified grub shell. The process can be found [here](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock). 
 
 ## SMBIOS
 
