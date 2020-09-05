@@ -81,3 +81,5 @@ Do not forget to run your generated serial number against [EveryMac.com's Ultima
 ## Big Sur
 
 I am happy to report that Big Sur will work. I tested it on a second SSD and it works seamlessly (Even though the beta supposedly doesn't work on the mac my SMBIOS is based on). Waiting for the full release to update though.
+
+![BigSur](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/bigsur.png)
