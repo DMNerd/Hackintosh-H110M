@@ -65,18 +65,31 @@ I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom i
 
 3. Export and use the USBPorts.kext
 
+## OS switching through bootcamp
+
+So one of the coolest features to OpenCore in my opinion is the ability to switch OS using native methods such as Bootcamp. 
+
+1. Boot to windows and download CorpNewt's [brigadier](https://github.com/corpnewt/brigadier) 
+
+2. Run the tool. It will download Bootcamp with version native to your SMBIOS - SOME OF THEM USE OLDER VERSION WITHOUT APPFS SUPPORT! In that case do not reboot straight after instalation.
+
+3. Install Bootcamp by double clicking Setup found in the downloaded folder (in the script's location directory). 
+
+4. Run the Apple Update software and let bootcamp update. It appears in the start menu.
+
+5. Restart back to MacOS. You will see BOOTCAMP as option in Startup Disk settings. If it is not there, check that the disk is mounted by MacOS. 
+
+![Bootcamp](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/Bootcamp.png)
+
+I however found problem for people that use second HDD on their Windows. Since Bootcamp was never meant to be run with multiple drives, the setup just sets attributes of every other disk to Hidden. Instructuions on how to fix it can be found [here](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/Bootcamp/BOOTCAMPDRIVEFIX.md)
+
 ## CFG-Lock
 
 This board does not have the abilitty to disable cfg-lock from bios - meaning it has to be done manually by finding the offset and applying it through the modified grub shell. The process can be found [here](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock). 
 
 ## SMBIOS
 
-Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). 
-Do not forget to run your generated serial number against [EveryMac.com's Ultimate Mac Lookup](https://everymac.com/ultimate-mac-lookup/) and [Apple's service coverage check](https://checkcoverage.apple.com/cz/cs/) for Apple services to work. If the result looks like the images bellow, you should be good!
-
-![EveryMac](https://www.tonymacx86.com/media/07-everymac-right.187075/full?d=1470318026)
-
-![Apple](https://www.tonymacx86.com/media/10-apple-right.187078/full?d=1470318026)
+Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). For more info follow [iDiot's guide to iMessage](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)
 
 ## Big Sur
 
