@@ -187,13 +187,15 @@
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>RebuildAppleMemoryMap</key>
-			<true/>
+			<false/>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<true/>
+			<false/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -360,6 +362,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
 			</dict>
 		</array>
 		<key>Emulate</key>
@@ -544,6 +548,40 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<false/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
+		</dict>
+		<key>Force</key>
+		<array>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>System/Library/Extensions/IONetworkingFamily.kext</string>
+				<key>Comment</key>
+				<string>Patch engine</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IONetworkingFamily</string>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IONetworkingFamily</string>
+				<key>MaxKernel</key>
+				<string>13.99.99</string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+		</array>
+		<key>Scheme</key>
+		<dict>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -566,18 +604,18 @@
 			<key>PickerMode</key>
 			<string>External</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<true/>
 			<key>DisableWatchDog</key>
@@ -590,6 +628,8 @@
 			<false/>
 			<key>Target</key>
 			<integer>3</integer>
+			<key>SerialInit</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -615,8 +655,6 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AuthRestart</key>
-			<false/>
-			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
@@ -628,6 +666,18 @@
 			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>EnablePassword</key>
+			<false/>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -659,6 +709,8 @@
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -721,7 +773,7 @@
 			<key>MLB</key>
 			<string>CHANGEME</string>
 			<key>ROM</key>
-			<data>EjRWeA==</data>
+			<data>EjRWeJA=</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -754,6 +806,8 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+			<key>GlobalConnect</key>
+			<false/>
 		</dict>
 		<key>Audio</key>
 		<dict>
@@ -823,6 +877,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -841,7 +897,7 @@
 			<key>AppleRtcRam</key>
 			<false/>
 			<key>AppleSmcIo</key>
-			<false/>
+			<true/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>DataHub</key>
@@ -849,12 +905,18 @@
 			<key>DeviceProperties</key>
 			<false/>
 			<key>FirmwareVolume</key>
-			<false/>
+			<true/>
 			<key>HashServices</key>
 			<false/>
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleSecureBoot</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
+			<key>AppleImg4Verification</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
