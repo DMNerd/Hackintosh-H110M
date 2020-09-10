@@ -14,9 +14,9 @@ OpenCanopy bootscreen is enabled
 
 * Native Power Management ✅
 * Wifi/Bluetooth ✅
+* File Vault ✅
 * Hardware Acceleration (iGpu in headless mode) ✅
 * Apple Services ✅
-* File Vault ✅
 
 ## ⚙️ Hardware 
 | Part | Info/Link |
