@@ -57,7 +57,7 @@ I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom i
 
 1. Identifying ports - I have done tho work for you on this board
 
-![USBMap](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/USBMAP/USBMap.png)
+![USBMap](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/USBmap/USBMap.png)
 
 2. Setting up Hackintool accordingly
 
