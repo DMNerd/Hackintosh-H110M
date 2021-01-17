@@ -1,16 +1,16 @@
-# 🍏 Hackintosh
+# Hackintosh
 
-This is my personal Hackintosh repo. 
+This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
 
 ![SysInfo](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfo.png)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.1
+Version: 0.6.5
 
-OpenCanopy bootscreen is enabled 
+OpenCanopy bootscreen is enabled and I am using the modern iconset
 
-### ✅ What works
+### What works
 
 * Native Power Management ✅
 * Wifi/Bluetooth ✅
@@ -18,7 +18,7 @@ OpenCanopy bootscreen is enabled
 * Hardware Acceleration (iGpu in headless mode) ✅
 * Apple Services ✅
 
-## ⚙️ Hardware 
+## Hardware 
 | Part | Info/Link |
 | --- | --- |
 | **MoBo** | [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov) |
@@ -33,7 +33,7 @@ OpenCanopy bootscreen is enabled
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
-## 🛠️ Kernel Extensions 
+## Kernel Extensions 
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to @corpnewt, you are the boss!
 
@@ -86,9 +86,3 @@ This board does not have the abilitty to disable cfg-lock from bios - meaning it
 ## SMBIOS
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). For more info follow [iDiot's guide to iMessage](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)
-
-## Big Sur
-
-I am happy to report that Big Sur will work. I tested it on a second SSD and it works seamlessly (Even though the beta supposedly doesn't work on the mac my SMBIOS is based on). Waiting for the full release to update though.
-
-![BigSur](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/bigsur.png)
