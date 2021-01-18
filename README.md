@@ -2,11 +2,11 @@
 
 This is my personal Hackintosh repo. 
 
-![SysInfo](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfo.png)
+![SysInfoCat](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfoCat.png)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.1
+Version: 0.6.3
 
 OpenCanopy bootscreen is enabled 
 
