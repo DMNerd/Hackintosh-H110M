@@ -83,6 +83,10 @@ So one of the coolest features to OpenCore in my opinion is the ability to switc
 
 I however found problem for people that use second HDD on their Windows. Since Bootcamp was never meant to be run with multiple drives, the setup just sets attributes of every other disk to Hidden. Instructuions on how to fix it can be found [here](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/Bootcamp/BOOTCAMPDRIVEFIX.md)
 
+## Native Power Management
+
+![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/PowerManagement.png)
+
 ## CFG-Lock
 
 This board does not have the abilitty to disable cfg-lock from bios - meaning it has to be done manually by finding the offset and applying it through the modified grub shell. The process can be found [here](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock). 
