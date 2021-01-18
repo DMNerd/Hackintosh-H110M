@@ -140,17 +140,6 @@
 						CAAAAA==
 						</data>
 					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>name</key>
-						<string>HS09</string>
-						<key>port</key>
-						<data>
-						CQAAAA==
-						</data>
-					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
@@ -208,6 +197,42 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>iMac17,1</string>
+		</dict>
+		<key>iMac17,1-XHC-internal-hub</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<key>IOClass</key>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSB20InternalHub</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>port-count</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>ports</key>
+				<dict>
+					<key>HS03</key>
+					<dict>
+						<key>name</key>
+						<string>HS03</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>portType</key>
+						<integer>255</integer>
+					</dict>
+				</dict>
+			</dict>
+			<key>locationID</key>
+			<integer>346030080</integer>
 			<key>model</key>
 			<string>iMac17,1</string>
 		</dict>
