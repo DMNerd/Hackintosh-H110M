@@ -1,8 +1,10 @@
-# Hackintosh
+# BigSur Hackintosh
 
 This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
 
 ![SysInfo](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfo.png)
+
+BigSur works OOB. No new kexts were used (Wifi on this chip still works and works well)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
@@ -17,6 +19,8 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 * File Vault ✅
 * Hardware Acceleration (iGpu in headless mode) ✅
 * Apple Services ✅
+* Audio over HDMI ✅
+* Audio over DP (requires restart after hotplug) ✅
 
 ## Hardware 
 | Part | Info/Link |
