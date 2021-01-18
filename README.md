@@ -2,7 +2,7 @@
 
 This is my personal Hackintosh repo. 
 
-![SysInfoCat](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/SysInfoCat.png)
+![SysInfoCat](https://github.com/DMNerd/Hackintosh/blob/catalina-final/Resources/Screenshots/SysInfoCat%20.png)
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
