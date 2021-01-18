@@ -1,24 +1,28 @@
-# 🍏 Hackintosh
+# BigSur Hackintosh
 
-This is my personal Hackintosh repo. 
+This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
 
 ![SysInfoCat](https://github.com/DMNerd/Hackintosh/blob/catalina-final/Resources/Screenshots/SysInfoCat%20.png)
 
+BigSur works OOB. No new kexts were used (Wifi on this chip still works and works well)
+
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.3
+Version: 0.6.5
 
-OpenCanopy bootscreen is enabled 
+OpenCanopy bootscreen is enabled and I am using the modern iconset
 
-### ✅ What works
+### What works
 
 * Native Power Management ✅
 * Wifi/Bluetooth ✅
 * File Vault ✅
 * Hardware Acceleration (iGpu in headless mode) ✅
 * Apple Services ✅
+* Audio over HDMI ✅
+* Audio over DP (requires restart after hotplug) ✅
 
-## ⚙️ Hardware 
+## Hardware 
 | Part | Info/Link |
 | --- | --- |
 | **MoBo** | [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov) |
@@ -33,7 +37,7 @@ OpenCanopy bootscreen is enabled
 
 ![PC](https://i.imgur.com/fc48zst.jpg)
 
-## 🛠️ Kernel Extensions 
+## Kernel Extensions 
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to @corpnewt, you are the boss!
 
@@ -79,6 +83,10 @@ So one of the coolest features to OpenCore in my opinion is the ability to switc
 
 I however found problem for people that use second HDD on their Windows. Since Bootcamp was never meant to be run with multiple drives, the setup just sets attributes of every other disk to Hidden. Instructuions on how to fix it can be found [here](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/Bootcamp/BOOTCAMPDRIVEFIX.md)
 
+## Native Power Management
+
+![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/PowerManagement.png)
+
 ## CFG-Lock
 
 This board does not have the abilitty to disable cfg-lock from bios - meaning it has to be done manually by finding the offset and applying it through the modified grub shell. The process can be found [here](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#disabling-cfg-lock). 
@@ -86,9 +94,3 @@ This board does not have the abilitty to disable cfg-lock from bios - meaning it
 ## SMBIOS
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). For more info follow [iDiot's guide to iMessage](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)
-
-## Big Sur
-
-I am happy to report that Big Sur will work. I tested it on a second SSD and it works seamlessly (Even though the beta supposedly doesn't work on the mac my SMBIOS is based on). Waiting for the full release to update though.
-
-![BigSur](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/bigsur.png)
