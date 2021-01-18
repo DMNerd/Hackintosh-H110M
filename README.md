@@ -2,7 +2,7 @@
 
 This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
 
-![SysInfoCat](https://github.com/DMNerd/Hackintosh/blob/catalina-final/Resources/Screenshots/SysInfoCat%20.png)
+![SysInfoCat](https://github.com/DMNerd/Hackintosh/blob/catalina-final/Resources/Screenshots/SysInfo.png)
 
 BigSur works OOB. No new kexts were used (Wifi on this chip still works and works well)
 
