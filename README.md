@@ -94,3 +94,9 @@ This board does not have the abilitty to disable cfg-lock from bios - meaning it
 ## SMBIOS
 
 Closest comparable iMac is [iMac 17.1](https://everymac.com/ultimate-mac-lookup/?search_keywords=iMac17,1). So that is the SMBIOS we choose. For the platform info we use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS). For more info follow [iDiot's guide to iMessage](https://www.tonymacx86.com/threads/an-idiots-guide-to-imessage.196827/)
+
+## External monitor brightness and volume control
+
+You can use [Monitor control](https://github.com/MonitorControl/MonitorControl) to acheve this. It is very easy to setup
+
+`$ brew install --cask monitorcontrol`
