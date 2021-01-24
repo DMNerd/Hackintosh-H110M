@@ -49,6 +49,38 @@ My setup does not require many kexts. I built all from source using [Lilu-and-Fr
 
 **LAN:** [RealtekRTL8111](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) 
 
+## ACPI
+
+So the SSDTs I am using are not "needed" per se but they help my machine run as natively as possible the explanation to what they are is as follows: 
+
+### SSDT-EC
+
+This is the dummy EC for macos to attach to. Mine is very simple because the PNP0C09 device on this board already has _STA method, which means that as long OC and MacOS is concerned, it has no EC it would conflict with - which is awesome! (This little board surprised me on so many levels)
+
+### SSDT-USBX
+
+Another basic one. This enables charging trough USB on Skylake or newer boards (usually combined to one with SSDT-EC but I like them separate)
+
+### SSDT-PLUG
+
+This enables MacOS to attach to the first CPU core to properly powermanage your CPU. 
+
+### SSDT-SBUS-MCHC
+
+This one is interesting as this extends the SMBUS funcionality on your hack. SMBUS is very importaint for many reasons which the [Dortania guide to ACPI](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) explains much better than I ever could.
+
+### SSDT-HPET
+
+This is one part of the IRQ patches that were part of Clover. With OC it is harder than just clicking a box but [SSDTtime](https://github.com/corpnewt/SSDTTime) by, once again CorpNewt, can do it for you. There is second part to it and that is the ACPI patches for OC - SSDTtime generates them for you too. In my case those are patches 0 - 2 in the ACPI -> Patch section of the config.
+
+### SSDT-GPRW
+
+I need this one since there is no option to disable WOL on this board and having it enabled sometimes results in the computer waking up from sleep. Again this needs an ACPI rename patch. In my case this is the patch 3 in the ACPI -> Patch section of the config.
+
+#### Addendum: 
+
+One more part of the sleep issue (instant wake) was having "Wake for network acces" enabled in power settings. Make sure to disable this. Darkwake will still happen, but not as frequently, which is the truly disturbing part of it.
+
 ## USB
 
 Strictly speaking, these comonents **do not** need USB mapping. You do not get over the arbitrary limit imposed by MacOS. But there are some advantages, like marking the port bluetooth hub is connected to as internal and making sure your usb 3 runs on the maximum speed. 
