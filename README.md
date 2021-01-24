@@ -61,7 +61,7 @@ This is the dummy EC for macos to attach to. Mine is very simple because the PNP
 
 Another basic one. This enables charging trough USB on Skylake or newer boards (usually combined to one with SSDT-EC but I like them separate)
 
-### SSDT-PLUG
+### SSDT-PLUG
 
 This enables MacOS to attach to the first CPU core to properly powermanage your CPU. 
 
