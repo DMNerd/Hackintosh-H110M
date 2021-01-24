@@ -49,6 +49,8 @@ My setup does not require many kexts. I built all from source using [Lilu-and-Fr
 
 **LAN:** [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X) -> Switched to the new advanced driver from Mieze. Couple of new features and the planned features look frankly amazing!
 
+![LanFeatures](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/EthernetSettings.png)
+
 ## ACPI
 
 So the SSDTs I am using are not "needed" per se but they help my machine run as natively as possible the explanation to what they are is as follows: 
