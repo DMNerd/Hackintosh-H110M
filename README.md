@@ -75,14 +75,6 @@ This one is interesting as this extends the SMBUS funcionality on your hack. SMB
 
 This is one part of the IRQ patches that were part of Clover. With OC it is harder than just clicking a box but [SSDTtime](https://github.com/corpnewt/SSDTTime) by, once again CorpNewt, can do it for you. There is second part to it and that is the ACPI patches for OC - SSDTtime generates them for you too. In my case those are patches 0 - 2 in the ACPI -> Patch section of the config.
 
-### SSDT-GPRW
-
-I need this one since there is no option to disable WOL on this board and having it enabled sometimes results in the computer waking up from sleep. Again this needs an ACPI rename patch. In my case this is the patch 3 in the ACPI -> Patch section of the config.
-
-#### Addendum: 
-
-One more part of the sleep issue (instant wake) was having "Wake for network acces" enabled in power settings. Make sure to disable this. Darkwake will still happen, but not as frequently, which is the truly disturbing part of it.
-
 ## USB
 
 Strictly speaking, these comonents **do not** need USB mapping. You do not get over the arbitrary limit imposed by MacOS. But there are some advantages, like marking the port bluetooth hub is connected to as internal and making sure your usb 3 runs on the maximum speed. 
