@@ -2,7 +2,7 @@
 
 This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
 
-![SysInfoCat](https://github.com/DMNerd/Hackintosh/blob/catalina-final/Resources/Screenshots/SysInfo.png)
+![SysInfoCat](https://github.com/DMNerd/Hackintosh-H110M/blob/master/Resources/Screenshots/SysInfo.png)
 
 BigSur works OOB. No new kexts were used (Wifi on this chip still works and works well)
 
@@ -83,11 +83,11 @@ I used [Hackintool](https://github.com/headkaze/Hackintool) to generate custom i
 
 1. Identifying ports - I have done tho work for you on this board
 
-![USBMap](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/USBmap/USBMap.png)
+![USBMap](https://github.com/DMNerd/Hackintosh-H110M/blob/master/Resources/Extra/USBmap/USBMap.png)
 
 2. Setting up Hackintool accordingly
 
-![HackintoolPNG](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/HackintoolUSB.png)
+![HackintoolPNG](https://raw.githubusercontent.com/DMNerd/Hackintosh-H110M/master/Resources/Screenshots/HackintoolUSB.png)
 
 3. Export and use the USBPorts.kext
 
@@ -111,7 +111,7 @@ I however found problem for people that use second HDD on their Windows. Since B
 
 ## Native Power Management
 
-![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh_EFI/master/Resources/Screenshots/PowerManagement.png)
+![PM](https://raw.githubusercontent.com/DMNerd/Hackintosh-H110M/master/Resources/Screenshots/PowerManagement.png)
 
 ## CFG-Lock
 
