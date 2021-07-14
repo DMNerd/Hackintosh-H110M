@@ -8,7 +8,7 @@ BigSur works OOB. No new kexts were used (Wifi on this chip still works and work
 
 ## [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases) 
 
-Version: 0.6.5
+Version: 0.7.1
 
 OpenCanopy bootscreen is enabled and I am using the modern iconset
 
@@ -28,7 +28,7 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 | **MoBo** | [Gigabyte H110m ds2 DDR3](https://www.gigabyte.com/Motherboard/GA-H110M-DS2-DDR3-rev-10#ov) |
 | **CPU** | [i5 6500 skylake](https://ark.intel.com/content/www/us/en/ark/products/88184/intel-core-i5-6500-processor-6m-cache-up-to-3-60-ghz.html) |
 | **iGPU** |  Intel HD Graphics 530 |
-| **dGPU** | Sapphire Radeon RX 460 4GB [bios modded](https://www.overclock.net/forum/67-amd/1633317-wip-rx460-rx560-conversion-pack-asus-gigabyte-msi-powercolor-sapphire-xfx.html "bios modded") to RX 560 4GB. Make sure your card is on the confirmed working if you feel like not risking it (this one is) |
+| **dGPU** | MSI Nvidia GTX 760 |
 | **RAM** | Kingston 8GB |
 | **Wifi/BT Card** | [Fenvi HB1200 PCI WiFi](https://www.aliexpress.com/item/33034394024.html?spm=a2g0s.9042311.0.0.69f64c4dVPLsGp) natively supported wifi card based on the BCM94360CS2 chipset |
 | **Storage for MAC** | 250gb Crucial Balistix SSD + Seagate 1TB HDD |
