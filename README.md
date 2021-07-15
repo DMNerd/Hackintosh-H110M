@@ -35,8 +35,6 @@ OpenCanopy bootscreen is enabled and I am using the modern iconset
 | **Storage for Mindows** | 250gb Samsung 950 EVO + Seagate Barracuda 1TB HDD |
 | **Case** | [Fortron CMT240](https://www.fsp-europe.com/CS/cmt240/) |
 
-![PC](https://i.imgur.com/fc48zst.jpg)
-
 ## Kernel Extensions 
 
 My setup does not require many kexts. I built all from source using [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends). Masive thanks to @corpnewt, you are the boss!
