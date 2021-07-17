@@ -103,8 +103,6 @@ So one of the coolest features to OpenCore in my opinion is the ability to switc
 
 5. Restart back to MacOS. You will see BOOTCAMP as option in Startup Disk settings. If it is not there, check that the disk is mounted by MacOS. 
 
-![Bootcamp](https://raw.githubusercontent.com/DMNerd/Hackintosh/master/Resources/Screenshots/Bootcamp.png)
-
 I however found problem for people that use second HDD on their Windows. Since Bootcamp was never meant to be run with multiple drives, the setup just sets attributes of every other disk to Hidden. Instructuions on how to fix it can be found [here](https://github.com/DMNerd/Hackintosh/blob/master/Resources/Extra/Bootcamp/BOOTCAMPDRIVEFIX.md)
 
 ## Native Power Management
