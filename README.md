@@ -1,6 +1,7 @@
 # BigSur Hackintosh
 
-This is my personal Hackintosh repo. The main branch is now for BigSur only and will likely not work in near future. If you still want to use Catalina go to its branch.
+#NOTICE: 
+I do no longer have this particular machine thus the support ends with 0.7.1
 
 ![SysInfoCat](https://github.com/DMNerd/Hackintosh-H110M/blob/master/Resources/Screenshots/SysInfo.png)
 
